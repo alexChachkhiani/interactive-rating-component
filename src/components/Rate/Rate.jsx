@@ -11,7 +11,9 @@ export default function Rate({ setSubmit, rate, setRate }) {
       <div className="oval">
         <img src={iconStar} alt="Icon Star" />
       </div>
-      <h1>How did we do?</h1>
+      <div className="h1-container">
+        <h1>How did we do?</h1>
+      </div>
       <p>
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
