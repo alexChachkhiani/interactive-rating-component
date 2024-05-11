@@ -1,8 +1,7 @@
-# React + Vite
+# Interactive Rating Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Interactive Rating Component built in React
 
-Currently, two official plugins are available:
+This app allows user to choose rating from 1 to 5 and then displays the thank you message with corresponding number.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## View the website [here](https://alexchachkhiani.github.io/interactive-rating-component/)
