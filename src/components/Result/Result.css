@@ -1,0 +1,45 @@
+.result-container {
+  width: 412px;
+  height: 416px;
+  padding-left: 32px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  background-image: radial-gradient(circle at 50% 0, #232a34, #181e27 89%);
+}
+
+.illusration-thank-you {
+  margin-top: 45px;
+}
+
+.result-background {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 193px;
+  height: 32px;
+  border-radius: 22.5px;
+  background-color: #262e38;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 32px;
+}
+
+.result {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #fc7614;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.paragraph {
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+  color: #969fad;
+  margin: 7px 0 0;
+}
