@@ -5,11 +5,7 @@ import illustartionThankYou from "../../assets/illustration-thank-you.svg";
 export default function Result({ rate }) {
   return (
     <div className="result-container">
-      <img
-        src={illustartionThankYou}
-        alt="Illusration Thank You"
-        className="illusration-thank-you"
-      />
+      <img src={illustartionThankYou} alt="Illusration Thank You" />
       <div className="result-background">
         <span className="result">You selected {rate} out of 5</span>
       </div>

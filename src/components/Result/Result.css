@@ -1,17 +1,12 @@
 .result-container {
   width: 412px;
   height: 416px;
-  padding-left: 32px;
-  padding-right: 40px;
+  padding: 45px 40px 45px 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 30px;
   background-image: radial-gradient(circle at 50% 0, #232a34, #181e27 89%);
-}
-
-.illusration-thank-you {
-  margin-top: 45px;
 }
 
 .result-background {
@@ -42,4 +37,22 @@ h1 {
   text-align: center;
   color: #969fad;
   margin: 7px 0 0;
+}
+
+@media only screen and (max-width: 450px) {
+  .result-container {
+    border-radius: 15px;
+    width: 327px;
+    height: 360px;
+    padding: 34px 24px 37px;
+  }
+
+  .result-background {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .result {
+    font-size: 14px;
+  }
 }
